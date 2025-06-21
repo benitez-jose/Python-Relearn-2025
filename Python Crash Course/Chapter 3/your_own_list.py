@@ -6,3 +6,5 @@
 transportation_mode = ['R6', 'R1', 'CBR600R', 'CBR1000RR', 'ZX6R', 'ZX10R']
 
 print(f"I would like to own a Yamaha {transportation_mode[1]} motorcycle.")
+print(f"The {transportation_mode[0]} is what I currently own.")
+print(f"The {transportation_mode[5]} is a really nice motorcycle.")
