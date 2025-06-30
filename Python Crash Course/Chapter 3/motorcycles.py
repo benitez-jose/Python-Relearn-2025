@@ -41,3 +41,19 @@ print(motorcycles)
 popped_motorcycle = motorcycles.pop()
 print(motorcycles)
 print(popped_motorcycle)
+
+#Popping items from any position in a list
+
+motorcycles = ['honda', 'yamaha', 'suzuki']
+
+first_owned = motorcycles.pop(0)
+print(f"The first motorcycle I owned was a {first_owned.title()}")
+
+# Removing an Item by Value
+# Only delted the first occurance of the value specified. If more, than use a loop.
+
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
+print(motorcycles)
+
+motorcycles.remove('ducati')
+print(motorcycles)
